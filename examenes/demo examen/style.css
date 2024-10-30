@@ -1,0 +1,170 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(6, 33, 52);
+}
+
+.row {
+    display: flex;
+}
+
+.col-1{
+    flex: 1;
+    padding: 10px;
+    align-items: center;
+    
+background-color: rgb(28, 124, 192);
+}
+
+/* inicio barra de navegacion */
+
+.buscador {
+    height: 40px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.navegador{
+    display: flex;
+    justify-content: space-around;
+    font-family: sans-serif;
+}
+
+li {
+    display: inline;
+}
+
+.nav {
+    display: end;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 20px;
+}
+
+.tituloo{
+    
+    width: 400px;
+}
+
+.blue {
+    color: #1b98e7;
+}
+
+/* fin barra de navegacion */
+
+/* imagen */
+
+.services{
+    padding: 15px;
+    background-color: white;
+    height: 500px;
+    width: 1200px;
+}
+
+/* fin imagen */
+
+/* informacion inicio */
+
+.block{
+margin: 10px;
+background-color: white;
+}
+
+.color-block{
+padding: 10px;
+background-color: rgb(28, 124, 192);
+}
+
+.color-text{
+color: white;
+background-color: rgb(28, 124, 192);
+}
+
+.fondo{
+    background-color: rgb(212, 208, 208);
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    font-style: italic;
+}
+
+.titulo{
+    background-color: white;
+    color: black;
+    width: 410px;
+}
+
+.CB{
+background-color: rgb(28, 124, 192);
+}
+
+.but{
+    width: 100px;
+    height: 35px;
+    background: rgb(25,145,221);
+background: linear-gradient(0deg, rgba(25,145,221,1) 42%, rgba(85,179,238,1) 51%);
+border: 0;
+border-radius: 5px;
+color: white;
+background-color: #1b98e7;
+}
+
+.icon-xs{
+    height: 30px;
+    border-radius: 23px;
+    background-color: white;
+}
+
+.text-color{
+    background-color: white;
+}
+
+.link{
+    color: #5888aa;
+}
+
+.edificio{
+    width: 350px;
+}
+
+.world{
+    background-color: white;
+    width: 420px;
+}
+
+.test{
+    justify-content: end;
+}
+
+.z{
+    text-decoration: none;
+    color: white;
+}
+
+/* From Uiverse.io by ShrinilDhorda */ 
+.btn {
+    font-size: 1.2rem;
+    padding: 1rem 2.5rem;
+    border: none;
+    outline: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: rgb(14, 14, 26);
+    color: rgb(234, 234, 234);
+    font-weight: 700;
+    transition: 0.6s;
+    box-shadow: 0px 0px 60px #1f4c65;
+    -webkit-box-reflect: below 10px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+  }
+  
+  .btn:active {
+    scale: 0.92;
+  }
+  
+  .btn:hover {
+    background: rgb(2,29,78);
+    background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, rgba(31, 215, 232, 0.873) 60%);
+    color: rgb(4, 4, 38);
+  }

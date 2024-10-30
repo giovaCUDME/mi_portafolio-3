@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Romanesco", cursive;
+  font-weight: 400;
+  font-style: initial;
+
+}
+
+.row {
+  display: flex;
+}
+
+html {
+  background: url(image/selva.webp) no-repeat center fixed;
+  background-size: cover;
+}
+
+.titulo {
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-decoration-line: underline;
+  text-decoration-style: double;
+}
+
+.tigre {
+  width: 270px;
+}
+
+.p {
+  color: white;
+  list-style-type: none;
+}
+
+.n {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.d {
+  text-decoration-line: underline;
+  text-decoration-style: double;
+}
+
+.imagen {
+  width: 240px;
+  height: 160px;
+  padding: 10px;
+}
+
+.h{
+  font-size: 30px;
+}
+
+.volver{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.x{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* From Uiverse.io by Satoshikamotona */ 
+.btn {
+  outline: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #40b3a2;
+  min-width: 200px;
+  border: 0;
+  border-radius: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  padding: 16px 20px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.btn:hover {
+  opacity: 0.95;
+  background-color: transparent;
+}
+
+.btn .animation {
+  border-radius: 100%;
+  animation: ripple 0.6s linear infinite;
+}
+
+@keyframes ripple {
+  0% {
+    box-shadow:
+      0 0 0 0 rgba(255, 255, 255, 0.1),
+      0 0 0 20px rgba(255, 255, 255, 0.1),
+      0 0 0 40px rgba(255, 255, 255, 0.1),
+      0 0 0 60px rgba(255, 255, 255, 0.1);
+  }
+
+  100% {
+    box-shadow:
+      0 0 0 20px rgba(255, 255, 255, 0.1),
+      0 0 0 40px rgba(255, 255, 255, 0.1),
+      0 0 0 60px rgba(255, 255, 255, 0.1),
+      0 0 0 80px rgba(255, 255, 255, 0);
+  }
+}
